@@ -39,6 +39,3 @@ If you already have a `[tui]` section, add the `status_line` entry there instead
 
 Remove `status_line` from `~/.codex/config.toml` for Codex. For Claude, remove the `statusLine` entry from `~/.claude/settings.json` and delete `~/.claude/statusline.py`. Backups are at `config.toml.bak` and `settings.json.bak` respectively.
 
-## Credits
-
-Inspired by videvjs/claude-statusline. The missing-field hang described in [PR #4](https://github.com/videvjs/claude-statusline/pull/4) is avoided by parsing JSON directly and bounding bars. [PR #1](https://github.com/videvjs/claude-statusline/pull/1) motivated consideration of Windows support; native Windows remains future work.
